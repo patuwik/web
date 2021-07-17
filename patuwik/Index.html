@@ -1,0 +1,128 @@
+<html>
+    <head>
+
+    </head>
+    <style>
+        body {
+            background-color: black;
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+        h1 {
+            text-align: center;
+            color: white;
+        }
+        h4 {
+            text-align: center;
+            color: white;
+        }
+        p {
+            color: white;
+            text-align: center;
+        }
+        marquee {
+            color: white;
+        }
+        img.mochi {
+            width: 10%;
+            height: auto;
+            animation: dogspin 5s infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes dogspin {
+            100% {transform: rotate(360deg);}
+        }
+        .songtitle {
+            color: lightgreen;
+            text-align: center;
+        }
+        .songtitledig {
+            color: lightcoral;
+            text-align: center;
+        }
+        .audiocontainer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .tape {
+            margin-left: 400px;
+            margin-right: 400px;
+            border: 1px solid white;
+        }
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        a {
+            text-align: center;
+            color: lightseagreen;
+            text-decoration: none;
+        }
+    </style>
+    <body>
+        <h1>patuwik</h1>
+        <br>
+        <p>stuff like music and art</p>
+        <br>
+        <br>
+        <br>
+        <div class="center">
+        <img src="dogsleep.png" alt="dog sleeping" class="mochi">
+        </div>
+        <div class="tape">
+            <p>my spotify</p>
+            <br>
+            <br>
+            <a href="https://open.spotify.com/artist/4oA6VxerobVkBjtC7JFkHm?si=Qk0mtpX3S_ikBTfYGkAA5Q&dl_branch=1">Chimera Mix</a>
+            <br>
+            <a href="https://open.spotify.com/artist/62j0nInG8yFDK4RLGmMp2b?si=_-sQ3UoMSWWWy93_XRvx7w&dl_branch=1">Patorikku</a>
+        </div>
+        <br>
+        <br>
+        <div class="tape">
+            <h4>recorded on tape</h4>
+            <p class="songtitle">reality warping : i just discovered backwards recording and tape speed</p>
+            <div class="audiocontainer">
+            <audio controls>
+                <source src="realitywarping.mp3" type="audio/mpeg">
+            </audio>
+            <br>
+            </div>
+            <p class="songtitle">selfjam01 : tape saturation</p>
+            <div class="audiocontainer">
+            <audio controls>
+                <source src="SelfJam01.mp3" type="audio/mpeg">
+            </audio>
+            <br>
+            </div>
+            <p class="songtitle">glistening : sparkling water</p>
+            <div class="audiocontainer">
+            <audio controls>
+                <source src="Glistening02.mp3" type="audio/mpeg">
+            </audio>
+            <br>
+            </div>
+        </div>
+        <br>
+        <div class="tape">
+            <h4>recorded digitally</h4>
+            <p class="songtitledig">moons : just in case you decided your way</p>
+            <div class="audiocontainer">
+            <audio controls>
+                <source src="Moons.mp3" type="audio/mpeg">
+            </audio>
+            <br>
+            </div>
+            <p class="songtitledig">falling down : chromatic chord progs</p>
+            <div class="audiocontainer">
+            <audio controls>
+                <source src="FallingDown.mp3" type="audio/mpeg">
+            </audio>
+            <br>
+            </div>
+        </div>
+    </body>
+</html>
